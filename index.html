@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus - Award-Winning UI Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-follower"></div>
+    <div class="noise-overlay"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon"></div>
+                <span class="logo-text">Nexus</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link" data-text="Home">Home</a>
+                <a href="#" class="nav-link" data-text="About">About</a>
+                <a href="#" class="nav-link" data-text="Work">Work</a>
+                <a href="#" class="nav-link" data-text="Contact">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <div class="floating-elements">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+                <div class="floating-shape shape-4"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="word" data-text="Next">Next</span>
+                        <span class="word" data-text="Generation">Generation</span>
+                        <span class="word gradient-text" data-text="Experience">Experience</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Immerse yourself in the future of digital interaction
+                    </p>
+                </div>
+                
+                <div class="hero-cta">
+                    <button class="cta-button primary">
+                        <span class="button-text">Explore Now</span>
+                        <div class="button-ripple"></div>
+                    </button>
+                    <button class="cta-button secondary">
+                        <span class="button-text">Watch Demo</span>
+                        <div class="play-icon"></div>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="central-orb">
+                    <div class="orb-core"></div>
+                    <div class="orb-ring ring-1"></div>
+                    <div class="orb-ring ring-2"></div>
+                    <div class="orb-ring ring-3"></div>
+                </div>
+                <div class="data-streams">
+                    <div class="stream stream-1"></div>
+                    <div class="stream stream-2"></div>
+                    <div class="stream stream-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="section-header">
+                <h2 class="section-title">Revolutionary Features</h2>
+                <p class="section-subtitle">Technology that adapts to you</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-tilt>
+                    <div class="feature-icon">
+                        <div class="icon-neural"></div>
+                    </div>
+                    <h3 class="feature-title">Neural Interface</h3>
+                    <p class="feature-description">AI-powered interactions that learn from your behavior</p>
+                    <div class="feature-glow"></div>
+                </div>
+                
+                <div class="feature-card" data-tilt>
+                    <div class="feature-icon">
+                        <div class="icon-quantum"></div>
+                    </div>
+                    <h3 class="feature-title">Quantum Processing</h3>
+                    <p class="feature-description">Lightning-fast computations with zero latency</p>
+                    <div class="feature-glow"></div>
+                </div>
+                
+                <div class="feature-card" data-tilt>
+                    <div class="feature-icon">
+                        <div class="icon-hologram"></div>
+                    </div>
+                    <h3 class="feature-title">Holographic Display</h3>
+                    <p class="feature-description">3D visualizations that float in space</p>
+                    <div class="feature-glow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive-section">
+            <div class="particle-field">
+                <canvas id="particleCanvas"></canvas>
+            </div>
+            <div class="interactive-content">
+                <h2 class="interactive-title">Touch the Future</h2>
+                <div class="touch-interface">
+                    <div class="touch-point" data-x="0.2" data-y="0.3"></div>
+                    <div class="touch-point" data-x="0.7" data-y="0.2"></div>
+                    <div class="touch-point" data-x="0.5" data-y="0.7"></div>
+                    <div class="touch-point" data-x="0.1" data-y="0.8"></div>
+                    <div class="touch-point" data-x="0.9" data-y="0.6"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo-icon"></div>
+                <span>Nexus</span>
+            </div>
+            <p class="footer-text">Shaping tomorrow's digital landscape</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
